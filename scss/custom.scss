@@ -1,0 +1,181 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+    color: #616161;
+        
+}
+
+h1 {
+    margin-top: -9rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    width:60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:3;
+
+    .navbar-brand h3 {
+        font-weight: 700;
+    }
+
+    .logo-brand {
+        z-index:3;
+    }
+
+    .nav-item {
+        font-size: 1.4rem;
+    }
+
+    .nav-link:hover{
+        transition: border .2s;
+        border-bottom: 1px solid #FAFAFA;
+    }
+}
+
+.card {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+    border-radius: 3px;
+}
+.card-body{
+    background-color: #FAFAFA;
+}
+
+.carousel-inner{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .15);
+    border-radius:3px;
+}
+
+.nav{
+    .nav-link:hover{
+        transition: border .2s;
+        border-bottom: 1px solid #FAFAFA;
+    }
+}
+
+
+.socialIcon{
+    a:hover{
+    text-decoration: none;
+}
+}
+
+
+#showcase{
+    background: url("../img/bg.jpg") top center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+
+    #header{
+        z-index: 2;
+    }
+
+    #buttonHeader {
+        margin-top: 1.5rem;
+    }
+
+    #overlay{
+        background: rgb(0, 0, 0, .5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    
+    #book {
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+
+
+
+}
+
+
+
+#quotes {
+    i {
+        opacity: .3;
+    }
+}
+
+#rest h3{
+    margin-top:0;
+    
+}
+
+
+#footer {
+    font-weight: 300;
+
+  
+}
+
+
+
+
+
+@media (max-width: 768px){
+    
+    hr {
+            width:80%;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            border: 0;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+        }
+    
+    .navbar {
+        background: #1f1f1f;
+    }
+
+    .nav-link:hover{
+        border-bottom: none;
+    }
+
+    .navbar-brand h4 {
+        display: none;
+    }
+
+  
+    #showcase{
+        min-height: 500px;
+        background: bottom cover;
+
+        h1{
+            font-size: 3rem;
+            margin-top: 1.5rem;
+
+  
+        }
+    }
+
+    #rest {
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
+        
+    
